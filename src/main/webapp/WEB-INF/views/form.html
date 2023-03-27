@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title> Employee form
+    </title>
+</head>
+<div align="center">
+<body>
+<form method="POST" action="addEmployee" modelAttribute="employee">
+<h1>Add Employee</h1><br>
+    <h3>input Id</h3><br>
+    <input type="number" name="id" placeholder="id">
+    <h3>input name</h3><br>
+    <input type="text" name="name" placeholder="name">
+    <h3>input contact number</h3><br>
+    <input type="number" name="contactNumber" placeholder="contact number"><br>
+    <input type="submit" value="submit" >
+
+</form>
+</body>
+</div>
+</html>
